@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E3204EE2418295C0001A249 /* AttributesDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3204ED2418295C0001A249 /* AttributesDescription.m */; };
 		0E5EA05F2411A4B800598E3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5EA05E2411A4B800598E3E /* main.m */; };
+		0E5EA0662411A77100598E3E /* CommandLineIOHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5EA0652411A77100598E3E /* CommandLineIOHelper.m */; };
+		0E8074C624197E1B00702F67 /* NSFileManager+Files.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8074C524197E1B00702F67 /* NSFileManager+Files.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0E3204EC241829310001A249 /* AttributesDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttributesDescription.h; sourceTree = "<group>"; };
+		0E3204ED2418295C0001A249 /* AttributesDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributesDescription.m; sourceTree = "<group>"; };
 		0E5EA05B2411A4B800598E3E /* LS-objc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LS-objc"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E5EA05E2411A4B800598E3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E5EA0652411A77100598E3E /* CommandLineIOHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandLineIOHelper.m; sourceTree = "<group>"; };
+		0E5EA0672411A79800598E3E /* CommandLineIOHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandLineIOHelper.h; sourceTree = "<group>"; };
+		0E8074C424197E1B00702F67 /* NSFileManager+Files.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Files.h"; sourceTree = "<group>"; };
+		0E8074C524197E1B00702F67 /* NSFileManager+Files.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Files.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				0E5EA05E2411A4B800598E3E /* main.m */,
+				0E5EA0652411A77100598E3E /* CommandLineIOHelper.m */,
+				0E5EA0672411A79800598E3E /* CommandLineIOHelper.h */,
+				0E3204EC241829310001A249 /* AttributesDescription.h */,
+				0E3204ED2418295C0001A249 /* AttributesDescription.m */,
+				0E8074C424197E1B00702F67 /* NSFileManager+Files.h */,
+				0E8074C524197E1B00702F67 /* NSFileManager+Files.m */,
 			);
 			path = "LS-objc";
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E5EA05F2411A4B800598E3E /* main.m in Sources */,
+				0E5EA0662411A77100598E3E /* CommandLineIOHelper.m in Sources */,
+				0E8074C624197E1B00702F67 /* NSFileManager+Files.m in Sources */,
+				0E3204EE2418295C0001A249 /* AttributesDescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
